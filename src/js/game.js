@@ -3,12 +3,16 @@ class Game {
       console.log('game started');
     }
   }
+
+  const defaultGame = new Game();
+
+export default defaultGame;
   
-  class GameSavingData {
+  export class GameSavingData {
   }
   
-  function readGameSaving() {
+  export function readGameSaving() {
   }
   
-  function writeGameSaving() {
+  export function writeGameSaving() {
   }
